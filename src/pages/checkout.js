@@ -39,7 +39,7 @@ function Checkout() {
   return (
     <div className="checkout">
     <div className='checkout__container'>
-    <h1>Thank you for your purchase - <span>Jannicks Lemonade Stand</span></h1>
+    <h2>Thank you for your purchase - <span>Jannicks Lemonade Stand</span></h2>
     <CheckoutTotal/>
         <div className='checkout__row'>
         {cart?.map((item) => (

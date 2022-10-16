@@ -1,3 +1,5 @@
+
+
 .home{
   display: flex;
   justify-content: center;
@@ -6,13 +8,14 @@
   max-width: 1500px;
 }
 
-.home h1{
+.home h2{
   text-align: center;
   margin-top: 1%;
   margin-bottom: 2%;
+  font-size:40px;
 }
 
-.home h1 span{
+.home h2 span{
   color: #00FF00;
 }
 
@@ -47,6 +50,8 @@
 
 .home__row > div:nth-child(6) {
   grid-column: span 6;
+  padding-bottom:8%;
+  
 }
 
 .shopping-cart {
@@ -55,13 +60,17 @@
   padding: 25px;
   border-radius: 100px;
   position: fixed;
-  bottom: 40px;
+  bottom: 100px;
   right: 10%;
   z-index: 1;
 }
 
 .shopping-cart:active {
   box-shadow: 0 4px 4px gray;
+}
+
+.shopping-cart:hover {
+  background-color:orange;
 }
 
 #cartIcon{

@@ -16,13 +16,14 @@ function displayToast() {
       className: css({
         background: "#00FF00 !important",
         color: "white !important",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        
       }),
       closeOnClick: false,
       toastId: "my_toast",
      
       closeButton: false,
-      position: toast.POSITION.BOTTOM_CENTER
+      position: toast.POSITION.TOP_LEFT
     });
   } else {
     console.log("Toast already active");
@@ -55,7 +56,12 @@ function Item({id, title, image, price}) {
          } }>Add to Cart
       </button>
       <ToastContainer
+      position="bottom-left"
       autoClose={700}
+     
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
        />
     </div>
   )

@@ -22,7 +22,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <h1>Welcome to: <span>Jannicks Lemonade Stand</span></h1>
+        <h2>Welcome to: <span>Jannicks Lemonade Stand</span></h2>
         <div className="home__row">
           <Item
             id={4}
