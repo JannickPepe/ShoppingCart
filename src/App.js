@@ -10,7 +10,8 @@ import Navbar from "./components/Navbar";
 
 
 
-
+// every page goes into the Routes
+// ofc navbar top and footer bottom, what else :P
 function App() {
   return (
     <div className="app">

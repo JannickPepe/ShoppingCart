@@ -7,6 +7,7 @@ import {useNavigate} from 'react-router-dom'
 
 function Cart() {
 
+  // Have the cart state onto this page as well otherwise good luck with the items 
   const navigate = useNavigate()
   const cart = useSelector((state) => state.cart)
 
@@ -17,6 +18,7 @@ function Cart() {
           <button><h4>Go back</h4></button>
         </div>
         <div>
+          {/*Here we can choose how much detail we want from our cartItem*/}
           <h3>Shopping Cart</h3>
           {cart?.map((item) => (
             <CartItem

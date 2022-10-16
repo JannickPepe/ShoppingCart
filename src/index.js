@@ -8,6 +8,7 @@ import { store } from './redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+// nested environment structur, where we start from outer and than into the middle where our App is
 root.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -17,3 +18,5 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+  

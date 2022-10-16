@@ -2,9 +2,11 @@ import './cartItem.css'
 import { incrementQuantity, decrementQuantity, removeItem} from '../redux/cartSlice'
 import { useDispatch } from 'react-redux'
 
+// quantity always starts with 0 unless you have pressed one in the home page
 function CartItem({id, image, title, price, quantity=0}) {
   const dispatch = useDispatch()
 
+  // on every selected item we will get curtain details and having the opportunity to use the incremeant and decremeant method
   return (
     <div className="cartItem">
       <img className="cartItem__image" src={image} alt='item'/>

@@ -1,8 +1,5 @@
-body {
-   
-  }
 
-  .wrapper {
+.wrapper {
     text-align: center;
     background: rgb(49, 49, 177);
     background: linear-gradient(
@@ -14,32 +11,31 @@ body {
     margin-top:3%;
     color:white;
     padding-bottom:5%;
-  }
+}
 
 
-  .content {
+.content {
     padding-top:2%;
     width: 100%;
     margin:auto;
-  }
-  .col-4 {
+}
+.col-4 {
     width: 25%;
     float: left;
-  }
-  
+}
+
 .wrapper h1 {
     font-size: 38px;
     text-transform: uppercase;
     line-height: 1;
     margin-bottom:2%;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .content {
-      width: 1100px;
+        width: 1100px;
     }
     h1 {
-      font-size: 58px;
+        font-size: 58px;
     }
-  }
-  
+}

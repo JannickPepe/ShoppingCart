@@ -2,6 +2,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { cartReducer } from "./cartSlice";
 
+// more security ya know, also structur differnet if ya gonna apply middleware and thunk. 
 import storage from 'redux-persist/lib/storage';
 import {
   persistStore,

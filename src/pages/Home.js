@@ -8,9 +8,11 @@ import { useSelector } from 'react-redux';
 
 function Home() {
 
+  // we start with the cart, where we have the cart onto this state page, because its here we have our products
   const navigate = useNavigate()
   const cart = useSelector((state) => state.cart)
 
+  // empty state first, but everytime we click on item, quanity goes up by 1
   const getTotalQuantity = () => {
     let total = 0
     cart.forEach(item => {
@@ -67,6 +69,7 @@ function Home() {
           />
         </div>
       </div>
+      {/*Here we have the nagivate for the cart icon and it shows the quatity in a badge icon */}
       <div className='shopping-cart' onClick={() => navigate('/cart')}>
         <ShoppingCart id='cartIcon'/>
         <p>{getTotalQuantity() || 0}</p>

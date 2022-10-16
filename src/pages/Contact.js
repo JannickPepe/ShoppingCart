@@ -13,8 +13,7 @@ function Contact() {
           Coming Soon
         </h1>
         <br />
-        <h3>
-          But first hand in at:</h3>
+        <h3>But first hand in at:</h3>
         <Timer />
       </div>
     </div>
