@@ -80,6 +80,7 @@ margin-bottom: 1%;
 
 .cartItem__removeButton{
   color: rgb(241, 131, 131);
+  cursor:pointer;
 }
 
 .cartItem__removeButton:hover{

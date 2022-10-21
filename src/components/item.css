@@ -26,12 +26,13 @@
 }
 
 .item > button {
-  background: #FFD814;
+  background:#32CD32;
   margin-top: 10px;
   color: #111;
   border-radius: 20px;
   padding: 8px 30px;
   border: none;
+  cursor:pointer;
 }
 
 .item > button:hover {
