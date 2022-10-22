@@ -17,7 +17,7 @@ function CheckoutTotal() {
 
   return (
     <div className="">
-      <h4>Order List</h4>
+      <h4>What you have bought</h4>
       <div>
         <p className="">
           total ({getTotal().totalQuantity} items) 
