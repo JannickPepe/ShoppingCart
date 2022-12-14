@@ -45,7 +45,7 @@ code {
 .rotate{
   width:40px;
   height:40px;
-  animation: rotation infinite 3s linear;
+  animation: rotation 2s ease-in-out 2;
   
 }
 

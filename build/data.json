@@ -1,0 +1,48 @@
+[
+    {
+      "_id": "633de67414748ee85b6f398e",
+      "index": 0,
+      "guid": "4f5b32ad-8ba5-4313-9504-468d6f7429ef",
+      "isActive": true,
+      "balance": "$1,405.42",
+      "imageURL": "",
+      "age": 21,
+      "eyeColor": "brown",
+      "name": "Made by: Jannick Pedersen",
+      "gender": "male",
+      "company": "CONJURICA",
+      "email": "jannick@gmail.com",
+      "phone": "+1 (934) 510-3590",
+      "address": "352 Reeve Place, Linwood, New York, 7626",
+      "about": "This web shop is made with React Redux, and this comes from a json file.\r\n",
+      "registered": "2017-07-13T10:03:27 -02:00",
+      "latitude": 18.464387,
+      "longitude": 173.911473,
+      "tags": [
+        "veniam",
+        "tempor",
+        "reprehenderit",
+        "qui",
+        "et",
+        "ut",
+        "elit"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Pollard Vincent"
+        },
+        {
+          "id": 1,
+          "name": "Stacy Robinson"
+        },
+        {
+          "id": 2,
+          "name": "Juliet Gardner"
+        }
+      ],
+      "greeting": "Hello, Hardin Cotton! You have 2 unread messages.",
+      "favoriteFruit": "banana"
+    }
+    
+  ]
